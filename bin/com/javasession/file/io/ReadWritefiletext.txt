@@ -1,0 +1,8 @@
+public class File
+extends Object
+implements Serializable, Comparable<File>
+An abstract representation of file and directory pathnames.
+User interfaces and operating systems use system-dependent pathname strings to name files and directories. 
+This class presents an abstract, system-independent view of hierarchical pathnames. 
+An abstract pathname has two components:
+

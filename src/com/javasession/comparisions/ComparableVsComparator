@@ -1,0 +1,15 @@
+Comparable interface 
+is mainly used to sort the arrays (or lists) of custom objects.
+Lists (and arrays) of objects that implement Comparable interface can be sorted automatically by Collections.sort (and Arrays.sort). 
+Before we see how to sort an objects of custom objects, 
+lets see how we can sort elements of arrays and Wrapper classes that already implements Comparable.
+
+
+Comparator interface
+In the last tutorial, we have seen how to sort objects of a custom class using Comparable interface. 
+By using Comparable we can sort the objects based on any data member. For example, 
+lets say we have an Author class has data members: Author name, book name and author age, 
+now if we want to sort the objects based on any of the data member then we can use 
+Comparable but what if we want to have multiple sort choices and we can sort objects based on any choice, 
+this can be done using Comparator interface, 
+we can create as many Comparator as we want and then we can call Collections.sort on one or more
